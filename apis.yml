@@ -1,16 +1,14 @@
 aid: microsoft-azure-firewall
-url: 
-  https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/apis.yml
 apis:
   - aid: microsoft-azure-firewall:rest-api
     name: Azure Firewall REST API
     tags:
+      - Cloud Security
       - Firewall
       - Network Security
       - Threat Protection
-      - Cloud Security
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/firewall/
     properties:
