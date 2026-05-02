@@ -3,14 +3,20 @@ Azure Firewall REST API provides management of cloud-native network security wit
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/apis.yml)
 
+## Scope
+
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
+
 ## Tags:
 
- - Firewall, Network Security, Threat Protection, Cloud Security
+ - Cloud Security, Firewall, Network Security, Threat Protection
 
 ## Timestamps
 
 - **Created:** 2026-03-13
-- **Modified:** 2026-03-13
+- **Modified:** 2026-04-28
 
 ## APIs
 
