@@ -29,6 +29,8 @@ apis:
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/firewall/
     properties:
+      - url: openapi/microsoft-azure-firewall-openapi.yml
+        type: OpenAPI
       - url: https://learn.microsoft.com/en-us/rest/api/firewall/
         type: Documentation
     description: >-
