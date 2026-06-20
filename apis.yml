@@ -5,7 +5,7 @@ description: >-
   The REST API supports configuring network rules, application rules, NAT rules, and DNS proxy settings, with built-in
   high availability, unrestricted cloud scalability, and threat intelligence-based filtering.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Cloud Security
   - Firewall
@@ -23,7 +23,7 @@ apis:
       - Firewall
       - Network Security
       - Threat Protection
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/firewall/
     properties:
