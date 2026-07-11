@@ -36,6 +36,8 @@ apis:
       unrestricted cloud scalability, and threat intelligence-based filtering. It supports configuring network rules,
       application rules, NAT rules, and DNS proxy settings.
 common:
+  - type: OAuthScopes
+    url: scopes/microsoft-azure-firewall-scopes.yml
   - type: GitHubOrganization
     url: https://github.com/Azure
   - type: Portal
@@ -53,3 +55,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+  - url: https://azure.microsoft.com/en-us/blog/azure-firewall-and-network-virtual-appliances/
+    type: Blog
