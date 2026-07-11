@@ -36,6 +36,10 @@ apis:
       unrestricted cloud scalability, and threat intelligence-based filtering. It supports configuring network rules,
       application rules, NAT rules, and DNS proxy settings.
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-firewall-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-firewall-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-firewall-scopes.yml
   - type: GitHubOrganization
