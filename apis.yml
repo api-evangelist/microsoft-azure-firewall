@@ -36,6 +36,8 @@ apis:
       unrestricted cloud scalability, and threat intelligence-based filtering. It supports configuring network rules,
       application rules, NAT rules, and DNS proxy settings.
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-firewall-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-firewall-domain-security.yml
   - type: Authentication
