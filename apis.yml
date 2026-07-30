@@ -5,7 +5,20 @@ description: >-
   The REST API supports configuring network rules, application rules, NAT rules, and DNS proxy settings, with built-in
   high availability, unrestricted cloud scalability, and threat intelligence-based filtering.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-firewall.png
 tags:
   - Cloud Security
   - Firewall
@@ -16,25 +29,30 @@ created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: microsoft-azure-firewall:rest-api
-    name: Azure Firewall REST API
-    tags:
-      - Cloud Security
-      - Firewall
-      - Network Security
-      - Threat Protection
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    baseURL: https://management.azure.com/
-    humanURL: https://learn.microsoft.com/en-us/rest/api/firewall/
-    properties:
-      - url: openapi/microsoft-azure-firewall-openapi.yml
-        type: OpenAPI
-      - url: https://learn.microsoft.com/en-us/rest/api/firewall/
-        type: Documentation
-    description: >-
-      Azure Firewall REST API provides management of cloud-native network security with built-in high availability,
-      unrestricted cloud scalability, and threat intelligence-based filtering. It supports configuring network rules,
-      application rules, NAT rules, and DNS proxy settings.
+- aid: microsoft-azure-firewall:microsoft-azure-firewall-firewalls-api
+  name: Azure Firewall Firewalls API
+  description: Firewalls operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/firewall/
+  baseURL: https://management.azure.com/
+  tags:
+  - Firewalls
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-firewall-firewalls-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/firewall/
+- aid: microsoft-azure-firewall:microsoft-azure-firewall-operations-api
+  name: Azure Firewall Operations API
+  description: Operations operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/firewall/
+  baseURL: https://management.azure.com/
+  tags:
+  - Operations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-firewall-operations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/firewall/
 common:
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-firewall-agentic-access.yml
