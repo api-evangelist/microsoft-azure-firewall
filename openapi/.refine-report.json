@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-firewall",
+  "sources": [
+    "microsoft-azure-firewall-firewalls-api-openapi.yml",
+    "microsoft-azure-firewall-operations-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-firewall-firewalls-api-openapi.yml",
+    "microsoft-azure-firewall-operations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
