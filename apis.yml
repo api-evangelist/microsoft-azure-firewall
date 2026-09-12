@@ -67,6 +67,8 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/firewall/
 common:
+  - type: Website
+    url: https://www.microsoft.com/
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-firewall-agentic-access.yml
   - type: DomainSecurity
@@ -94,3 +96,5 @@ maintainers:
     email: kin@apievangelist.com
   - url: https://azure.microsoft.com/en-us/blog/azure-firewall-and-network-virtual-appliances/
     type: Blog
+x-parent: microsoft-azure
+x-relationship: product
