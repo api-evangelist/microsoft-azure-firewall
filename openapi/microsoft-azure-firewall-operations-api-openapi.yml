@@ -1,6 +1,6 @@
 openapi: 3.2.0
 info:
-  title: Azure Firewall REST Firewalls Operations API
+  title: Azure Firewall REST Operations API
   description: Azure Firewall is a managed, cloud-based network security service. The REST API manages firewalls, firewall policies, rule collections, IP groups, and threat intelligence settings.
   version: '2024-01-01'
 servers:
@@ -37,6 +37,24 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
 components:
   schemas:
+    Operation:
+      type: object
+      properties:
+        name:
+          type: string
+        display:
+          type: object
+          properties:
+            provider:
+              type: string
+            resource:
+              type: string
+            operation:
+              type: string
+            description:
+              type: string
+        isDataAction:
+          type: boolean
     ErrorResponse:
       type: object
       properties:
@@ -58,24 +76,6 @@ components:
             $ref: '#/components/schemas/Operation'
         nextLink:
           type: string
-    Operation:
-      type: object
-      properties:
-        name:
-          type: string
-        display:
-          type: object
-          properties:
-            provider:
-              type: string
-            resource:
-              type: string
-            operation:
-              type: string
-            description:
-              type: string
-        isDataAction:
-          type: boolean
   parameters:
     apiVersion:
       name: api-version
