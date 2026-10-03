@@ -57,6 +57,15 @@ components:
               type: string
             target:
               type: string
+    OperationList:
+      type: object
+      properties:
+        value:
+          type: array
+          items:
+            $ref: '#/components/schemas/Operation'
+        nextLink:
+          type: string
     Operation:
       type: object
       properties:
@@ -75,15 +84,6 @@ components:
               type: string
         isDataAction:
           type: boolean
-    OperationList:
-      type: object
-      properties:
-        value:
-          type: array
-          items:
-            $ref: '#/components/schemas/Operation'
-        nextLink:
-          type: string
   securitySchemes:
     azure_auth:
       type: oauth2
