@@ -1,0 +1,25 @@
+slug: microsoft-azure-firewall
+provider: Azure Firewall
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 1
+edges:
+- tag: Firewalls
+  spec_file: microsoft-azure-firewall-firewalls-api-openapi.yml
+  capability_id: BC-620
+  capability_id_l1: BC-620
+  capability_name: Cybersecurity Management
+  confidence: 0.72
+  evidence: '"Azure Firewall is a managed, cloud-based network security service. The REST API manages
+    firewalls, firewall policies, rule collections, IP groups, and threat intelligence settings."'
+  reason: Managing firewall resources and rule policies is a security control capability; the sub-capability
+    is ambiguous between security architecture and infrastructure, so only the L1 is asserted.

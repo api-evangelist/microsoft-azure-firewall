@@ -67,6 +67,9 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/firewall/
 common:
+  - type: CapabilityMap
+    url: capabilities/microsoft-azure-firewall-capability-edges.yml
+    name: Azure Firewall Business Capability Map
   - type: Website
     url: https://www.microsoft.com/
   - type: AgenticAccess
