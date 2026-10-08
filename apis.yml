@@ -67,6 +67,12 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/firewall/
 common:
+  - type: Plans
+    url: plans/microsoft-azure-firewall-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/microsoft-azure-firewall-rate-limits.yml
+  - type: FinOps
+    url: finops/microsoft-azure-firewall-finops.yml
   - type: CapabilityMap
     url: capabilities/microsoft-azure-firewall-capability-edges.yml
     name: Azure Firewall Business Capability Map
